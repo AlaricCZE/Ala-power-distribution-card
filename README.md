@@ -1,9 +1,9 @@
 # LuxPower Distribution Card
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-41BDF5.svg?style=flat-square)](https://github.com/hacs/integration)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/DanteWinters/lux-power-distribution-card?style=flat-square)
-![Github stars](https://img.shields.io/github/stars/DanteWinters/lux-power-distribution-card?style=flat-square)
-![Github issues](https://img.shields.io/github/issues/DanteWinters/lux-power-distribution-card?style=flat-square)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/AlaricCZE/Ala-power-distribution-card?style=flat-square)
+![Github stars](https://img.shields.io/github/stars/AlaricCZE/Ala-power-distribution-card?style=flat-square)
+![Github issues](https://img.shields.io/github/issues/AlaricCZE/Ala-power-distribution-card?style=flat-square)
 
 A simple power distribution card of an inverter and battery system, for [Home Assistant](https://home-assistant.io/). The card is modelled after LuxpowerTek's app and website.
 
