@@ -804,7 +804,7 @@ class LuxPowerDistributionCard extends LitElement implements LovelaceCard {
           solar_info = `
             <div>
               <p class="header-text">${combined_solar_flow} W</p>
-              <p class="sub-text">${combined_solar_flow > 0 ? 'PV Power' : ''}</p>
+              <p class="sub-text">${combined_solar_flow > 0 ? 'Výkon FV' : ''}</p>
             </div>
           `;
         } else if (
@@ -817,7 +817,7 @@ class LuxPowerDistributionCard extends LitElement implements LovelaceCard {
             solar_info = `
               <div>
                 <p class="header-text">${total} W</p>
-                <p class="sub-text">${total > 0 ? 'PV Power' : ''}</p>
+                <p class="sub-text">${total > 0 ? 'Výkon FV' : ''}</p>
               </div>
             `;
           } else {
@@ -857,11 +857,11 @@ class LuxPowerDistributionCard extends LitElement implements LovelaceCard {
         let sub_text = ``;
         if (battery_flow < 0) {
           header_text = `${Math.abs(battery_flow)} W`;
-          sub_text = `Discharge Power`;
+          sub_text = `Vybíjení`;
           battery_arrow = ARROW_RIGHT;
         } else if (battery_flow > 0) {
           header_text = `${battery_flow} W`;
-          sub_text = `Charge Power`;
+          sub_text = `Nabíjení`;
           battery_arrow = ARROW_LEFT;
         } else {
           header_text = `0 W`;
@@ -1037,7 +1037,7 @@ class LuxPowerDistributionCard extends LitElement implements LovelaceCard {
       let sub_text = ``;
       if (home_consumption > 0) {
         header_text = `${Math.abs(home_consumption)} W`;
-        sub_text = `Home Usage`;
+        sub_text = `Spotřeba`;
       } else if (backup_consumption > 0) {
         header_text = `${Math.abs(backup_consumption)} W`;
         sub_text = `Backup Power`;
@@ -1065,7 +1065,7 @@ class LuxPowerDistributionCard extends LitElement implements LovelaceCard {
         allocated_info = `
           <div>
             <p class="header-text"> ${allocated_power} W </p>
-            <p class="sub-text"> Allocated Power </p>
+            <p class="sub-text"> Alokovaný výkon </p>
           </div>
         `;
       }
