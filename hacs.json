@@ -1,5 +1,5 @@
 {
   "name": "Ala-power-distribution-card",
   "render_readme": true,
-  "filename": "src/ala-power-distribution-card.js"
+  "filename": "src/ala-power-distribution-card.ts"
 }
