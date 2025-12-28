@@ -1,8 +1,8 @@
 {
-  "name": "lux_power_distribution_card",
+  "name": "Ala_power_distribution_card",
   "version": "2.0.0",
-  "description": "Lux power-distribution card",
-  "main": "dist/lux-power-distribution-card.js",
+  "description": "Ala power-distribution card",
+  "main": "dist/Ala-power-distribution-card.js",
   "type": "module",
   "scripts": {
     "build": "npm run lint && npm run rollup",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DanteWinters/lux-power-distribution-card.git"
+    "url": "git+https://github.com/AlaricCZE/Ala-power-distribution-card.git"
   },
-  "author": "DanteWinters",
+  "author": "AlaricCZE",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/DanteWinters/lux-power-distribution-card/issues"
+    "url": "https://github.com/AlaricCZE/Ala-power-distribution-card/issues"
   },
-  "homepage": "https://github.com/DanteWinters/lux-power-distribution-card#readme",
+  "homepage": "https://github.com/AlaricCZE/Ala-power-distribution-card#readme",
   "dependencies": {
     "@babel/core": "^7.25.2",
     "@babel/plugin-proposal-decorators": "^7.24.7",
