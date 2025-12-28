@@ -17,12 +17,12 @@ const plugins = [
 
 export default [
   {
-    input: 'src/lux-power-distribution-card.ts',
+    input: 'src/Ala-power-distribution-card.ts',
     output: {
       dir: 'dist',
       format: 'es',
       sourcemap: false,
-      name: 'LuxPowerDistributionCard'
+      name: 'AlaPowerDistributionCard'
     },
     plugins: [...plugins],
     context: 'window'
